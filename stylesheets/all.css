@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?eah38t");
+  src: url("../fonts/icomoon.eot?eah38t#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?eah38t") format("truetype"), url("../fonts/icomoon.woff?eah38t") format("woff"), url("../fonts/icomoon.svg?eah38t#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 20, ../sass/fonts.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 35, ../sass/fonts.scss */
+.icon-add:before {
+  content: "\e900";
+}
+
+/* line 38, ../sass/fonts.scss */
+.icon-cog-wheel-silhouette:before {
+  content: "\e901";
+}
+
+/* line 41, ../sass/fonts.scss */
+.icon-educational-forum-platform:before {
+  content: "\e902";
+}
+
+/* line 44, ../sass/fonts.scss */
+.icon-envelope:before {
+  content: "\e903";
+}
+
+/* line 47, ../sass/fonts.scss */
+.icon-eye-close-up:before {
+  content: "\e904";
+}
+
+/* line 50, ../sass/fonts.scss */
+.icon-failed-sms:before {
+  content: "\e905";
+}
+
+/* line 53, ../sass/fonts.scss */
+.icon-gps:before {
+  content: "\e906";
+}
+
+/* line 56, ../sass/fonts.scss */
+.icon-home-button:before {
+  content: "\e907";
+}
+
+/* line 59, ../sass/fonts.scss */
+.icon-on-off-button:before {
+  content: "\e908";
+}
+
+/* line 62, ../sass/fonts.scss */
+.icon-padnote:before {
+  content: "\e909";
+}
+
+/* line 65, ../sass/fonts.scss */
+.icon-time:before {
+  content: "\e90a";
+}
+
+/* line 11, ../sass/all.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 15, ../sass/all.scss */
+* {
+  max-height: 1000000px;
+}
+
+/* line 20, ../sass/all.scss */
+a[href^="tel"]:hover {
+  text-decoration: underline;
+}
+
+/* line 26, ../sass/all.scss */
+.ulreset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 41, ../sass/all.scss */
+input, textarea {
+  margin: 0;
+  outline: none;
+}
+
+/* line 46, ../sass/all.scss */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* line 52, ../sass/all.scss */
+p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* line 57, ../sass/all.scss */
+blockquote {
+  margin: 0;
+  border-left: 0;
+}
+/* line 60, ../sass/all.scss */
+blockquote q {
+  display: block;
+}
+
+/* line 65, ../sass/all.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: top;
+}
+
+/* line 72, ../sass/all.scss */
+address {
+  text-align: justify;
+  display: inline-block;
+}
+
+/* line 77, ../sass/all.scss */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 80, ../sass/all.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 85, ../sass/all.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 90, ../sass/all.scss */
+li {
+  list-style: none;
+}
+
+/* line 94, ../sass/all.scss */
+h1 {
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1.2px;
+  font: 600 33.33333px "robotoregular", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* line 101, ../sass/all.scss */
+h2 {
+  margin: 0;
+  color: #fff;
+  font: 200 18.33333px "robotoregular", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* line 110, ../sass/all.scss */
+h3 {
+  margin: 0 0 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  font: 600 22.5px "robotoregular", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* line 118, ../sass/all.scss */
+h4 {
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
+  font: 600 18.33333px "robotoregular", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* line 124, ../sass/all.scss */
+address {
+  font-style: normal;
+}
+
+/* line 128, ../sass/all.scss */
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font: 200 17.5px "robotoregular", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* line 135, ../sass/all.scss */
+.nav {
+  width: 245px;
+  background: #03a9f4;
+}
+
+/* line 139, ../sass/all.scss */
+.user-box {
+  padding: 20px;
+  text-align: center;
+}
+/* line 142, ../sass/all.scss */
+.user-box .user-box__link {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* line 146, ../sass/all.scss */
+.user-box .user-box__address {
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+/* line 150, ../sass/all.scss */
+.user-box .user-box__button {
+  display: inline-block;
+  padding: 4px;
+  min-width: 80px;
+  border-radius: 13px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 12px;
+}
+/* line 158, ../sass/all.scss */
+.user-box .user-box__button:hover {
+  transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.5s ease-out;
+  border: 1px solid #fff;
+  color: #03a9f4;
+  background: #fff;
+}
+
+/* line 169, ../sass/all.scss */
+.main-nav {
+  margin-bottom: 186px;
+}
+
+/* line 172, ../sass/all.scss */
+.main-nav__item {
+  overflow: hidden;
+  padding: 13px 25px;
+}
+/* line 175, ../sass/all.scss */
+.main-nav__item .main-nav__icon {
+  margin-right: 35px;
+  float: left;
+  font-size: 24px;
+}
+/* line 180, ../sass/all.scss */
+.main-nav__item .main-nav__link {
+  transform: translate(0%, -10%);
+  display: inline-flex;
+  font-size: 14px;
+}
+/* line 184, ../sass/all.scss */
+.main-nav__item .main-nav__link:hover + .main-nav__icon {
+  color: #000;
+}
+
+/* line 189, ../sass/all.scss */
+.activeClass {
+  background: #0288d1;
+  font-weight: 600;
+}
+
+/* line 193, ../sass/all.scss */
+.service {
+  padding: 25px;
+  overflow: hidden;
+}
+/* line 197, ../sass/all.scss */
+.service .service__link:hover {
+  color: #000;
+}
+/* line 201, ../sass/all.scss */
+.service .service__icon_services {
+  float: left;
+  font-size: 24px;
+}
+/* line 205, ../sass/all.scss */
+.service .service__icon_power {
+  float: right;
+  font-size: 24px;
+}
